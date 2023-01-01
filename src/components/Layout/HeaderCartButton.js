@@ -1,15 +1,14 @@
 import CartIcon from '../Cart/CartIcon';
 import styled, { keyframes } from 'styled-components';
-import HeaderCartButton from '../Layout/Header';
 
 const HeaderCartButton = (props) => {
   return (
     <Button>
-      <span>
+      <Icon>
         <CartIcon />
-      </span>
+      </Icon>
       <span>Your Cart</span>
-      <span>3</span>
+      <Badge>3</Badge>
     </Button>
   );
 };
