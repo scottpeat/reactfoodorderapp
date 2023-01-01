@@ -76,4 +76,5 @@ const BumpAnimation = styled.keyframes`
   100% {
     transform: scale(1);
   }
+  l
 `;
