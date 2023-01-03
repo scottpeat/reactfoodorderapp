@@ -1,5 +1,5 @@
 import CartIcon from '../Cart/CartIcon';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 const HeaderCartButton = (props) => {
   return (
@@ -53,6 +53,8 @@ const Badge = styled.span`
   font-weight: bold;
 `;
 
+/*
+
 const Bump = styled.div`
    {
     animation: BumpAnimation 300ms ease-out;
@@ -76,3 +78,5 @@ const BumpAnimation = styled.keyframes`
     transform: scale(1);
   }
 `;
+
+*/

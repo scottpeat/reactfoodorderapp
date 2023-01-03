@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import HeaderCartButton from '../Layout/Header';
+import HeaderCartButton from './HeaderCartButton';
 import mealsImage from '../../assets/meals.jpg';
 import styled from 'styled-components';
 
