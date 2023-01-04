@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Card from '../UI/Card';
 
 const DUMMY_MEALS = [
   {
@@ -31,7 +32,9 @@ const AvailableMeals = () => {
   const mealsList = DUMMY_MEALS.map((meal) => <li>{meal.name}</li>);
   return (
     <MealsStyle>
-      <ul>{mealsList}</ul>
+      <Card>
+        <ul>{mealsList}</ul>
+      </Card>
     </MealsStyle>
   );
 };
