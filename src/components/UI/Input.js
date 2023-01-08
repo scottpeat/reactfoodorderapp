@@ -11,7 +11,7 @@ const Input = (props) => {
 
 export default Input;
 
-const InputStyle = styled.input`
+const InputStyle = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
