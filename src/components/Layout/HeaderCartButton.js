@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const HeaderCartButton = (props) => {
   return (
-    <Button>
+    <Button onClick={props.onClick}>
       <Icon>
         <CartIcon />
       </Icon>
