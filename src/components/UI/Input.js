@@ -1,13 +1,15 @@
+import React from 'react';
+
 import styled from 'styled-components';
 
-const Input = (props) => {
+const Input = React.forwardRef((props, ref) => {
   return (
     <InputStyle>
       <label htmlFor={props.input.id}>{props.label}</label>
-      <input {...props.input} />
+      <input ref={ref} {...props.input} />
     </InputStyle>
   );
-};
+});
 
 export default Input;
 
