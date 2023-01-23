@@ -15,6 +15,7 @@ const Cart = (props) => {
     <ul>
       {cartCtx.items.map((item) => (
         <CartItem key={item.id} name={item.name} price={item.price} />
+        <
       ))}
     </ul>
   );
