@@ -42,5 +42,3 @@ const HeaderCartButton = (props) => {
     </button>
   );
 };
-
-export default HeaderCartButton;
